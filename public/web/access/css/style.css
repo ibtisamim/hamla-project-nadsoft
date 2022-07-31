@@ -1,0 +1,865 @@
+@font-face {
+    font-family: 'Palatino';
+    src: url('../fonts/Palatino.eot');
+    src: url('../fonts/Palatino.eot') format('embedded-opentype'),
+         url('../fonts/Palatino.woff2') format('woff2'),
+         url('../fonts/Palatino.woff') format('woff'),
+         url('../fonts/Palatino.ttf') format('truetype'),
+         url('../fonts/Palatino.svg#Palatino') format('svg');
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Montserrat-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Montserrat-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Montserrat-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Montserrat-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Montserrat-Medium.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Montserrat-Medium.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Montserrat-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Montserrat-Medium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Montserrat-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Montserrat-Bold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Montserrat-Bold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Montserrat-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Montserrat-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Montserrat-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+body{
+	font-family: "Montserrat-Regular" !important;
+	color: #777777;
+}
+
+
+#logo{
+	width: 70%;
+    margin-top: 10px;
+}
+
+.maintitle{
+font-family: 'Palatino' !important;
+   
+    font-size: 35px;
+    float: none;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	position: relative;
+    max-width: max-content;
+	color: #414141;
+}
+
+
+
+
+.maintitle:before{
+content: "";
+    width: 5px;
+    height: 3px;
+    border-bottom: 3px solid #FB2120;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+
+.maintitle:after{
+content: "";
+    width: 80px ;
+    height: 3px;
+    border-bottom: 3px solid #FB2120;
+    float: left;
+    position: absolute;
+    left: 27px;
+    bottom: 0;
+}
+
+
+#carouselhome .maintitle{
+	
+	    font-size: 36px;
+    max-width: 262px;
+    float: left;
+    margin-right: 42%;
+	color: #414141;
+	    margin-top: 8rem;
+	
+}
+
+
+#carouselhome .maintitle:before {
+    content: "";
+    width: 5px;
+    height: 3px;
+    border-bottom: 3px solid #FB2120;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 170px;
+}
+
+#carouselhome .maintitle:after {
+    content: "";
+    width: 70px;
+    height: 3px;
+    border-bottom: 3px solid #FB2120;
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+}
+
+
+.lang{
+	font-family: 'Montserrat-Bold' !important;
+}
+
+.homeslideimg{
+    border-left: 5px solid #FB2120;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 15px;
+    min-height: 574px;
+    max-height: 574px;
+}
+
+.homeslideimg img {
+	
+	   margin-top: 15px;
+		height:100%;
+		width:100%;
+		max-width:100%;
+}
+
+#carouselhome  p{
+	
+	    display: inline-block;
+    font-size: 20px;
+	
+}
+
+
+/*
+
+.homeslideimg:before{
+content: "";
+    width: 75%;
+    height: 5px;
+    background-color: #FB2120;
+    display: inline-block;
+    z-index: 4;
+    position: absolute;
+    vertical-align: top;
+    margin-top: 0px;
+    left: 0px;
+    top: 0px;
+	
+}*/
+
+.brand {
+	
+height:250px;
+overflow:hidden;
+border-radius: 10px;
+    border: 1px solid #ddd;
+	
+	white-space: nowrap;
+    
+    text-align: center; 
+	margin: 1em 0;
+	float: right;
+}
+
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.brand img {
+  
+    vertical-align: middle;
+    max-height: 250px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.brandmobile {
+	
+height:250px;
+overflow:hidden;
+border-radius: 10px;
+    border: 1px solid #ddd;
+	
+	white-space: nowrap;
+    
+    text-align: center; 
+	margin: 1em 0;
+
+}
+
+.brandmobile img {
+  
+    vertical-align: middle;
+    max-height: 250px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.brand:nth-child(odd ){
+margin-right: 9rem !important;
+    margin-left: 1rem !important;
+}
+#gallerycontainer{
+min-height: 300px;
+    margin-bottom: 10px;
+}
+
+.galleryitem {
+    position: relative;
+    width: 18%;
+    display: inline-block;
+    /* float: left; */
+    vertical-align: middle;
+    /* display: block; */
+    height: 220px;
+}
+
+
+.galleryitem:nth-child(2) {
+    width: 15%;
+   
+}
+
+.galleryitem:nth-child(4) {
+   width: 15%;
+   
+}
+
+
+.galleryitem:nth-child(1) img {    position: absolute; left: 0; width: 100%; max-width: 100%;}
+.galleryitem:nth-child(3) img {    position: absolute; left: 0; width: 100%; max-width: 100%;}
+.galleryitem:nth-child(5) img {    position: absolute; left: 0; width: 100%; max-width: 100%;}
+.galleryitem:nth-child(2) img {    position: absolute;
+    left: 7%;
+    width: 87%;
+    top: 11%;
+	}
+	
+.galleryitem:nth-child(4) img {position: absolute;
+    left: 7%;
+    width: 87%;
+    top: 11%;}
+
+#contact{
+	position:relative;
+	    z-index: 6;
+}
+#contact:before{
+
+    content: "";
+    width: 100%;
+    height: 160px;
+    background-color: #e5e5e5;
+    position: absolute;
+    border-top: 60px solid #b7b7b7;
+    left: 0px;
+    /* z-index: -13; */
+    top: 48%;
+}
+
+#contactinfo{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fb2120+0,000000+100 */
+background: #fb2120; /* Old browsers */
+background: -moz-linear-gradient(top,  #fb2120 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fb2120 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fb2120 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb2120', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+	
+border-radius: 5px;
+    padding: 4%;
+    color: #fff;
+    font-size: 17px;
+    /* min-height: 500px; */
+    margin-top: 5rem;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+#contactinfo a{
+	
+color: #fff;	
+    line-height: 48px;
+}
+
+.fa, .fas{
+	    font-size: 30px;
+}
+
+
+i.fas.fa-map-marker-alt {
+    margin-top: 15px;
+}
+
+.btn-primary{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,fb2120+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #000000 0%, #fb2120 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #000000 0%,#fb2120 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #000000 0%,#fb2120 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#fb2120',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+color: #fff;
+    text-transform: uppercase !important;
+    outline: none !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    font-size: 17px;
+    box-shadow: none !important;
+    border: 0px;
+}
+
+.ccontactform {
+    padding: 2.3vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    background: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	    margin-right: 30px;
+}
+
+.contacttitle{
+    font-size: 25px;
+    color: #414141 !important;
+    font-family: "Montserrat-Medium";
+}
+
+p.contactdesc {
+    width: 100%;
+    display: inline-block;
+    max-width: initial !important;
+    color: #777777;
+	    margin-bottom: 20px;
+	font-size: 17px;
+}
+
+label {
+    color: #414141;
+}
+
+
+::placeholder { color: #E5E5E5 !important; }
+
+.social {
+    padding-left: 26px;
+    font-size: 40px;
+    color: #fff !important;
+    padding-right: 16px;
+}
+
+.social p{
+	
+	    font-size: 20px;
+    width: 100%;
+}
+
+
+.social a{
+    font-size: 40px;
+    color: #fff !important;
+	display: inline-block;
+    width: 18%;
+    vertical-align: top;
+}
+
+input.form-control {
+    min-height: 40px;
+	    border: 1px solid #E5E5E5;
+}
+
+textarea.form-control {
+    height: auto;
+    height: 100px;
+    resize: none;
+    outline: none;
+}
+
+footer {
+    background-color: #000 !important;
+}
+
+
+.carousel-control-next-icon {
+    background: transparent url(images/next.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 71px;
+    width: 30px;
+    right: 0px;
+}
+
+
+.carousel-control-prev-icon {
+background: transparent url(images/preve.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 71px;
+    width: 30px;
+    left: 0px;
+   
+}
+div#carouselExampleCaptions {
+	    min-height: 200px;
+}
+
+.carousel-control-next {
+    right: 0px;
+}
+
+.carousel-control-prev {
+    left: 0px;
+}
+
+.powerdp{
+	    text-align: left ;
+    margin-top: 5px ;
+    margin-bottom: 5px ;
+color:#fff;
+}
+
+.copyright{
+	text-align: right ;
+   margin-top: 5px ;
+    margin-bottom: 5px ;
+	color:#fff;
+}
+
+/* menu */
+.mainmenuconteiner{
+    padding-top: 39px;
+    padding-right: 50px;
+    height: 109px;
+    position: relative;
+}
+
+.mainmenuconteiner:before{
+    content: "";
+    width: 140px;
+    height: 120px;
+    background-color: #e5e5e5;
+    position: absolute;
+    right: -13%;
+    top: 0px;
+    border-left: 45px solid #b7b7b7;
+    z-index: 9;
+
+}
+
+.mainmenuconteiner:after{
+content: "";
+    width: 29.6rem;
+    height: 5px;
+    background: #FB2120;
+    position: absolute;
+    right: 9px;
+    bottom: 0px;
+}
+
+#mainNav{
+	background:#fff;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	max-height: 104px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color:#414141 !important;
+	    font-size: 21px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #B7B7B7 !important; 
+}
+
+section#about{
+	text-align: center
+}
+#about p{
+	line-height: 32px;
+}
+
+
+section#home{
+        padding: 100px 0;
+}
+
+/* ../menu */
+
+.navbar-dark .navbar-toggler{
+	background:#FB2120;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1170px ;
+}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	
+	body {
+    font-family: "Montserrat-Regular" !important;
+    color: #777777;
+    /* width: 100%; */
+    /* float: none; */
+    /* margin: auto; */
+    position: relative;
+	}
+	
+	.mainmenuconteiner:after {
+    content: "";
+    width: 68.5%;
+    height: 5px;
+    background: #FB2120;
+    position: absolute;
+    right: 25%;
+    bottom: 0px;
+}
+
+#logo{
+	max-width: 45%;
+    margin-top: 30px;
+}
+
+#logocontainer{
+	text-align:center;
+}
+
+
+.mainmenuconteiner:before {
+content: "";
+    width: 170px;
+    height: 41px;
+    background-color: #e5e5e5;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    border-left: 60px solid #b7b7b7;
+}
+
+.mainmenuconteiner {
+    padding-top: 12px;
+	    height: auto;
+}
+
+
+.homeslideimg{
+	min-height: 250px;
+    max-height: 250px;
+}
+
+section#home{
+	padding-top:185px;
+	padding-bottom: 0;
+}
+
+div#navbarResponsive{
+	    background: red;
+    color: rgb(255, 255, 255);
+}
+
+div#navbarResponsive a{
+    color: rgb(255, 255, 255) !important;
+    padding-left: 20px;
+}
+
+.brand {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+.brand img{
+
+max-width: 100%;
+    width: 100%;
+    height: auto !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+section#brands , section#contact{
+	margin-top:30px;
+}
+
+section#contact {
+    padding-top: 0px;
+}
+footer p{
+	    text-align: center !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+
+}
+#mainNav{
+	max-height: initial;
+}
+
+
+.carousel-control-next , .carousel-control-prev{
+	display:none;
+}
+
+.social {
+    padding-left: 38px;
+    font-size: 40px;
+    color: #fff !important;
+    padding-right: 16px;
+    text-align: center !important;
+    padding: 0px;
+}
+
+
+
+.ccontactform{
+	margin-right: auto;
+    margin-left: auto;
+}
+#contactinfo{
+	margin-top:auto;
+}
+
+.galleryitem:nth-child(4) , .galleryitem  , .galleryitem:nth-child(2){
+		    width: 100%;
+			margin-top:5px;
+			margin-bottom:5px;
+			position: inherit;
+			    height: auto;
+	}
+	
+	.galleryitem:nth-child(2) img , .galleryitem:nth-child(4) img , .galleryitem:nth-child(1) img , .galleryitem:nth-child(5) img{
+		
+    left: auto;
+    width: 100%;
+    top: auto;
+	    position: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	    height: auto;
+	}
+	section{
+		    padding: initial;
+	}
+	
+	#contactformcontainer{
+		    padding: 0px;
+    margin-bottom: 30px;
+	}
+}
+
+
+
+@media only screen and (max-width: 400px){
+	
+	#contactformcontainer{
+		    padding: 0px;
+    margin-bottom: 30px;
+	}
+	
+	section{
+		    padding: initial;
+	}
+	.galleryitem:nth-child(4) , .galleryitem  , .galleryitem:nth-child(2){
+		    width: 100%;
+			margin-top:5px;
+			margin-bottom:5px;
+			position: inherit;
+			    height: auto;
+	}
+	
+	.galleryitem:nth-child(2) img , .galleryitem:nth-child(4) img , .galleryitem:nth-child(1) img , .galleryitem:nth-child(5) img{
+		
+    left: auto;
+    width: 100%;
+    top: auto;
+	    position: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	    height: auto;
+	}
+	
+	#mainNav{
+	max-height: initial;
+}
+	body {
+    font-family: "Montserrat-Regular" !important;
+    color: #777777;
+    /* width: 100%; */
+    /* float: none; */
+    /* margin: auto; */
+    position: relative;
+	}
+	
+	.mainmenuconteiner:after {
+    content: "";
+    width: 68.5%;
+    height: 5px;
+    background: #FB2120;
+    position: absolute;
+    right: 25%;
+    bottom: 0px;
+}
+
+#logo{
+	max-width: 45%;
+    margin-top: 30px;
+}
+
+#logocontainer{
+	text-align:center;
+}
+
+
+.mainmenuconteiner:before {
+    content: "";
+    width: 170px;
+    height: 41px;
+    background-color: #e5e5e5;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    border-left: 60px solid #b7b7b7;
+}
+
+.mainmenuconteiner {
+    padding-top: 12px;
+	    height: auto;
+}
+
+
+.homeslideimg{
+	min-height: 250px;
+    max-height: 250px;
+}
+
+section#home{
+	padding-top:185px;
+	padding-bottom: 0;
+}
+
+div#navbarResponsive{
+	    background: red;
+    color: rgb(255, 255, 255);
+}
+
+div#navbarResponsive a{
+    color: rgb(255, 255, 255) !important;
+    padding-left: 20px;
+}
+
+.brand {
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+.brand img{
+
+max-width: 100%;
+    width: 100%;
+    height: auto !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+section#brands , section#contact{
+	margin-top:30px;
+}
+
+section#contact {
+    padding-top: 0px;
+}
+footer p{
+	    text-align: center !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+
+}
+#mainNav{
+
+}
+.carousel-control-next , .carousel-control-prev{
+	display:none;
+}
+
+.social {
+    padding-left: 38px;
+    font-size: 40px;
+    color: #fff !important;
+    padding-right: 16px;
+    text-align: center !important;
+    padding: 0px;
+}
+
+
+
+.ccontactform{
+	margin-right: auto;
+    margin-left: auto;
+}
+#contactinfo{
+	margin-top:auto;
+}
+}

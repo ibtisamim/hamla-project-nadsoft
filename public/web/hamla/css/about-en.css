@@ -1,0 +1,228 @@
+
+body{
+	/*
+   font-family: 'DINNextLTW23-Regular' !important;*/
+  
+       background: #F5F5F5 0% 0% no-repeat padding-box;
+       font-size: 18px;
+	       direction: ltr;
+}
+
+#content{
+	color: #525252;
+	min-height: 387px;
+}
+
+#content p{
+	    text-align: justify;
+		color: #525252;
+		    line-height: 40px;
+			    width: 100%;
+    display: inline-block;
+}
+
+div#team {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    padding-top: 3rem;
+}
+
+#team .maintitle{
+	font-weight:bold;
+	/*
+    font-family: 'DINNextLTW23-Medium';*/
+    color: #707070;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.temmember{
+	border-radius: 12px;
+	position: relative;
+	margin-bottom:2rem;
+	max-height: 414px;
+	overflow:hidden;
+}
+
+.temmember .caption{
+    display: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    background: #000000a1;
+    position: absolute;
+    top: 0px;
+    padding: 25px;
+    height: 100%;
+    width: 100%;
+    right: 0px;
+    max-height: 414px;
+    overflow-x: auto;
+}
+
+
+	/* width */
+.temmember .caption::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.temmember .caption::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #cecece;
+  border-radius: 1px;
+   border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+/* Handle */
+.temmember .caption::-webkit-scrollbar-thumb {
+  background: #dddddd6e;
+  border-radius: 1px;
+   border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.temmember .caption .name{
+	color: #8DC640;
+	font-size:26px;
+	display:inline-block;
+	width:100%;
+	max-width:100%;
+	margin-bottom:1rem;
+	margin-top:1rem;
+}
+
+.temmember img{
+	max-width:100%;
+}
+
+.teamimg {
+    width: 100%;
+    height: 423px !important;
+    max-height: 423px !important;
+	overflow:hidden !important;
+	background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.temmember:hover .caption{
+	border-radius: 12px;
+	display:inherit;
+}
+
+#team2{
+	background: #F5F5F5;
+}
+
+.title{
+	/*
+ font-family: 'din-next-lt-w23-medium';*/
+    font-size: 25px;
+    color: #8DC640;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 37px;
+    line-height: 53px;
+    position: relative;
+    display: inherit;
+	margin-bottom:2rem;
+	margin-top:2rem;
+
+}
+
+
+#part1:before{
+content: "";
+    background: url(../images/team/icon1.png);
+  width: 34px;
+height: 34px;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 28px;
+    vertical-align: middle;
+    position: relative;
+    top: 0px;
+}
+
+#part2 .title:before{
+content: "";
+    background: url(../images/team/icon1.png);
+  width: 34px;
+height: 34px;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 28px;
+    vertical-align: middle;
+    position: relative;
+    top: 0px;
+}
+
+
+
+#team2 .title:before{
+content: "";
+    background: url(../images/team/icon3.png);
+  width: 34px;
+height: 34px;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 28px;
+    vertical-align: middle;
+    position: relative;
+    top: 0px;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 
+ 
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+ 
+}

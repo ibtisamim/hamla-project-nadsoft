@@ -1,0 +1,274 @@
+
+
+body{
+	/*
+   font-family: 'DINNextLTW23-Regular' !important;*/
+       direction: ltr;
+     background: #F5F5F5 0% 0% no-repeat ;
+       font-size: 20px;
+       
+}
+
+.articletitle{
+	    padding-top: 2rem;
+}
+
+#mainsection{
+	padding-bottom:2rem;
+	padding-top:2rem;	
+}
+
+#mainsection h2{
+    font-size: 30px;
+	/*
+    color: #939393;*/
+    max-width: 65%;
+    text-align: justify;
+    margin-bottom: 2rem;
+    line-height: 50px;
+
+}
+
+#subscribe{
+	background: #FFFFFF 0% 0% no-repeat ;
+}
+
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 0px solid rgba(0,0,0,.125);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 9px #00000029;
+    border-radius: 8px !important;
+    text-align: right;
+    color: #8DC640;
+    height: 91px;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+.card{
+
+	    margin-bottom: 2rem !important;
+	box-shadow: 0px 0px 9px #00000029 !important;
+border-radius: 8px !important;
+}
+
+
+
+
+#heading1:before{
+	content:"";
+	background:url(../images/donate/paybal.png);
+	    width: 29px;
+    height: 34px;
+    float: left;
+    margin-right: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#heading2:before{
+	content:"";
+	background:url(../images/donate/heading2icon.png);
+	width: 39px;
+height: 41px;
+    float: left;
+    margin-right: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#heading3:before{
+	content:"";
+	background:url(../images/donate/heading3icon.png);
+	    width: 37px;
+height: 36px;
+    float: left;
+    margin-right: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.panel-heading{
+font-size: 25px;
+    background: url(../images/donate/toparrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 35px 18px;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+div#collapse1 {
+    text-align: center;
+	    padding-bottom: 1rem;
+}
+
+
+#collapse1 h2 , #collapse2 h2  , #collapse3 h2{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+	/*
+    color: #939393;*/
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+#collapse1 a , #donatebtn , #collapse2 a ,  #collapse3 a{
+	background: #8DC640 0% 0% no-repeat ;
+border-radius: 27px;
+width: 310px;
+height: 53px;
+color:#fff;
+font-size:19px;
+text-align:center;
+font-weight:bold;
+/*
+font-family: 'DINNextLTW23-Medium';*/
+    display: inherit;
+    margin: auto;
+        line-height: 60px;
+}
+
+#box{
+    border: 1px solid #8DC640;
+    border-radius: 9px;
+    min-height: 233px;
+    margin-left: 4rem;
+    max-width: 964px;
+	    margin-bottom: 2rem;
+		/*
+		color: #939393;*/
+}
+
+.addressacc{
+	height: 82px;
+border: 1px solid #707070;
+border-radius: 9px;
+padding-left:25px;
+padding-right:25px;
+
+padding-top:15px;
+padding-bottom:15px;
+
+background:url(../images/donate/address.png);
+    margin: auto;
+        margin-bottom: 2rem;
+    background-repeat: no-repeat;
+    background-position: 35px 15px;
+padding-left: 5rem;
+color:#8DC640 ;
+}
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+  /* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ @media (max-width: 576px) {  
+
+ 
+#collapse1 a, #collapse2 a, #collapse3 a{
+	width:auto;
+}
+
+#mainsection h2{
+	    max-width: inherit;
+    text-align: left;
+}
+.articletitle {
+    
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding: 0;
+    padding-left: 20px !important;
+    max-width: 100%;
+	padding-left:10px;
+	padding-right:10px;
+}
+#box{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.panel-heading {
+    font-size: 22px;
+    background: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25px;
+    cursor: pointer;
+    line-height: 23px;
+}
+
+.addressacc{
+	    overflow: auto;
+    overflow-x: hidden;
+}
+
+
+#firtstsection {
+    
+    max-width: 100%;
+    font-size: 24px;
+	line-height: 35px;
+    padding: initial;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+}
+ 
+
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ #mainsection h2{
+	    max-width: inherit;
+    text-align: left;
+}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 
+ 
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+ 
+}
